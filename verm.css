@@ -271,7 +271,7 @@ section,
 /************************************/
 /*            MEDIA QUERIES         */
 /************************************/
-@media (max-width: 1251px) {
+@media (max-width: 1250px) {
 
     .cols--ul {
         display: block;
@@ -283,7 +283,7 @@ section,
 
 }
 
-@media (max-width: 921px) {
+@media (max-width: 920px) {
 
     .cols--ut {
         display: block;
@@ -295,7 +295,7 @@ section,
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     .cols--um {
         display: block;
