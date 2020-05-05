@@ -46,6 +46,38 @@ section,
     text-align: right;
 }
 
+.clickable {
+    cursor: pointer;
+}
+
+.position--relative {
+    position: relative;
+}
+
+.zindex--1 {
+    z-index: 1;
+}
+
+.zindex--2 {
+    z-index: 2;
+}
+
+.zindex--3 {
+    z-index: 3;
+}
+
+.zindex--4 {
+    z-index: 4;
+}
+
+.zindex--5 {
+    z-index: 5;
+}
+
+.flex--reverse {
+    flex-direction: row-reverse;
+}
+
 /* MARGINS */
 
 .mb--sm {
@@ -699,21 +731,15 @@ section,
         z-index: 2;
     }
     
-    .text-um--center {
+    .um-text--center {
         text-align: center;
     }
 
-    .text-um--left {
+    .um-text--left {
         text-align: left;
     }
 
-    .text-um--right {
+    .um-text--right {
         text-align: right;
     }
-}
-
-/* Other Styles */
-
-.clickable {
-    cursor: pointer;
 }
