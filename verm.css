@@ -309,7 +309,7 @@ section,
         display: block;
     }
 
-    .cols--ul > [class^="col--"] {
+    .cols--ul > [class*="col--"] {
         width: 100%;
     }
 
@@ -321,7 +321,7 @@ section,
         display: block;
     }
 
-    .cols--ut > [class^="col--"] {
+    .cols--ut > [class*="col--"] {
         width: 100%;
     }
 
@@ -333,7 +333,7 @@ section,
         display: block;
     }
 
-    .cols--um > [class^="col--"] {
+    .cols--um > [class*="col--"] {
         width: 100%;
     }
 
@@ -345,7 +345,7 @@ section,
         display: block;
     }
 
-    .cols--l > [class^="col--"] {
+    .cols--l > [class*="col--"] {
         width: 100%;
     }
 
@@ -476,7 +476,7 @@ section,
         display: block;
     }
 
-    .cols--t > [class^="col--"] {
+    .cols--t > [class*="col--"] {
         width: 100%;
     }
 
