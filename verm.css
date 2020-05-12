@@ -2,8 +2,23 @@
 /*           GENERAL STYLES         */
 /************************************/
 
-section,
-.section {
+.color--brand { color: #7bccc1; }
+.color--ascent { color: #414042; }
+.color--white { color: #fff; }
+.color--black { color: #000; }
+
+.bg--brand { background-color: #7bccc1; }
+.bg--ascent { background-color: #414042; }
+.bg--white { background-color: #fff; }
+.bg--black { background-color: #000; }
+.bg--grey { background-color: #f9f9f9; }
+
+.font--xlg { font-size: 50px; }
+.font--lg { font-size: 35px; }
+.font--md { font-size: 25px; }
+.font--sm { font-size: 17px; }
+
+section {
     width: 100%;
     position: relative;
 }
@@ -50,8 +65,20 @@ section,
     cursor: pointer;
 }
 
-.position--relative {
+.pos--relative {
     position: relative;
+}
+
+.pos--absolute {
+    position: absolute;
+}
+
+.pos--fixed {
+    position: fixed;
+}
+
+.pos--sticky {
+    position: fixed;
 }
 
 .zindex--1 {
@@ -303,6 +330,31 @@ section,
 /************************************/
 /*            MEDIA QUERIES         */
 /************************************/
+
+@media (min-width: 768px) {
+    .p-sticky {
+        position: sticky;
+        top: 80px;
+        z-index: 2;
+    }
+    
+    .um-text--center {
+        text-align: center;
+    }
+
+    .um-text--left {
+        text-align: left;
+    }
+
+    .um-text--right {
+        text-align: right;
+    }
+    
+    .um-flex--reverse {
+        flex-direction: row-reverse;
+    }
+}
+
 @media (max-width: 1250px) {
 
     .cols--ul {
@@ -721,25 +773,5 @@ section,
     
     .m-mt--xlg {
         margin-top: 100px;
-    }
-}
-
-@media (min-width: 768px) {
-    .p-sticky {
-        position: sticky;
-        top: 80px;
-        z-index: 2;
-    }
-    
-    .um-text--center {
-        text-align: center;
-    }
-
-    .um-text--left {
-        text-align: left;
-    }
-
-    .um-text--right {
-        text-align: right;
     }
 }
