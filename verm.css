@@ -401,7 +401,7 @@ section {
         width: 100%;
     }
 
-    .wrap--laptop {
+    .l-cols--wrap {
         flex-wrap: wrap;
     }
 
@@ -532,7 +532,7 @@ section {
         width: 100%;
     }
 
-    .wrap__tablet {
+    .t-cols--wrap {
         flex-wrap: wrap;
     }
 
@@ -655,7 +655,7 @@ section {
 
 @media (max-width: 767px) {
 
-    .wrap--mobile {
+    .m-cols--wrap {
         flex-wrap: wrap;
     }
 
