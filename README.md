@@ -2,7 +2,7 @@
 
 ## General Styles
 
-- Font-size -- `class="font--50"` **=** `font-size: 50px;`
+- Font-size -- `class="font--50"` **=** `font-size: calc(35px + 15 * (100vw - 320px) / 1280);`
 - Margin -- `class="mt--xlg"` **=** `margin-top: calc(40px + 60 * (100vw - 320px) / 1280);`
 - Padding -- `class="pb--xlg"` **=** `padding-bottom: calc(40px + 60 * (100vw - 320px) / 1280);`
 - Max-width -- `class="max--500"` **=** `max-width: 500px;`
