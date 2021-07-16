@@ -1,12 +1,22 @@
 /* GENERAL VARS */
 :root {
+    --container-width: 1500px;
+    
     --color-brand: #f25a23;
     --color-accnet: #000;
     --color-dark: #152636;
     --color-light: #f1eae5;
     --color-grey: #f9f9f9;
-
-    --container-width: 1500px;
+   
+    /* SWIPER THEME */
+    --swiper-navigation-color: var(--color-brand);
+    --swiper-theme-color: var(--color-brand);
+    --swiper-pagination-color: var(--color-brand);
+    
+    /* GLOBAL TRANSITIONS */
+    --trans-300: all 300ms ease;
+    --trans-600: all 600ms ease;
+    --trans-900: all 900ms ease;
 }
 
 /* GENERAL SIZES FOR SCREENS > 1920 */
@@ -243,7 +253,6 @@ body[class*="page-template-"]:not(.page-template-default).wrapper-full-width-con
 .mb--none { margin-bottom: 0!important; }
 .mt--none { margin-top: 0!important; }
 
-/* @media (max-width: 1920px) { */
 /* MARGINS */
 .mb--sm { margin-bottom: var(--sm-size); }
 .mb--md { margin-bottom: var(--md-size); }
